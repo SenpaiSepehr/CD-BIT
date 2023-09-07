@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # data
     parser.add_argument('--num_workers', default=32, type=int)  # original 4
     parser.add_argument('--dataset', default='CDDataset', type=str)
-    parser.add_argument('--data_name', default='LEVIR', type=str)
+    parser.add_argument('--data_name', default='SYSU', type=str)
 
     parser.add_argument('--batch_size', default=16, type=int)  # original 8
     parser.add_argument('--split', default="train", type=str)
